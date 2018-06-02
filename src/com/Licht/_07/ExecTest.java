@@ -4,9 +4,9 @@ public class ExecTest {
 	public static void main(String[] args) throws Exception
 	{
 		Runtime rt = Runtime.getRuntime();
-		//ÔËĞĞ¼ÇÊÂ±¾³ÌĞò
-		rt.exec("notepad.exe"); //²»ÄÜÖ±½ÓÒÔÕâÖÖ·½Ê½ÔËĞĞ¼ÆËã»ú·Ç×Ô´ø³ÌĞò
-		//ÔËĞĞ»­Í¼³ÌĞò 
+		//æ‰“å¼€è®°äº‹æœ¬
+		rt.exec("notepad.exe"); //è°ƒç”¨çš„æ˜¯è®¡ç®—æœºè‡ªå¸¦ç¨‹åº
+		//æ‰“å¼€ç”»å›¾ 
 	    rt.exec("mspaint.exe");
 	}
 }
