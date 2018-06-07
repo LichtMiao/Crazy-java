@@ -1,3 +1,6 @@
+/*
+ * 使用Lamda表达式遍历集合元素
+ */
 package com.Licht._08;
 
 import java.util.Collection;
