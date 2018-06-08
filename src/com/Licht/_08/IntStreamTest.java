@@ -15,7 +15,7 @@ public class IntStreamTest{
 			.add(18)
 			.build(); //调用Builder的build()方法获取对应的Stream
 		//下面调用聚集方法的代码每次只能执行一次
-		//System.out.println("is流中所有元素的最大值：" + is.max().getAsInt());
+		System.out.println("is流中所有元素的最大值：" + is.max());
 		//System.out.println("is流中所有元素的最小值：" + is.min().getAsInt());
 		//System.out.println("is流中所有元素的h和：" + is.sum());
 		//System.out.println("is流中所有元素的总数：" + is.count());
