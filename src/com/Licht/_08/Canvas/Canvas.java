@@ -1,5 +1,4 @@
 package com.Licht._08.Canvas;
-
 import java.util.List;
 
 //定义Canvas类，是Shape子类的对象
