@@ -2,6 +2,8 @@ package com.Licht._16.DrawTest;
 /*
 *线程类
 *将使用账户（account）作为同步监视器
+*实际上，取钱操作应该放在Account类中，
+*Account代表用户账户，应该提供用户账户相关的方法
 */
 public class DrawThread extends Thread{
 	private Account account; //用户账户
