@@ -6,7 +6,7 @@ public class Account{
 	private double balance; // 余额
 	public Account(){}
 	public Account(String accountId, double balance){
-		this.setAccountId(accountId);
+		this.accountId = accountId;
 		this.balance = balance;
 	}
 	public String getAccountId(){
