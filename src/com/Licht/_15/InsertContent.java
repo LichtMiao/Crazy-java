@@ -1,8 +1,6 @@
 package com.Licht._15;
 
-import java.io.Rand插入的内容
-插入的内容
-omAccessFile;
+import java.io.RandomAccessFile;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
