@@ -12,7 +12,7 @@ public class PushbackTest{
 		
 		//创建PushbackReader对象，指定推回缓冲区长度64
 		try(PushbackReader pr = new PushbackReader(new FileReader(
-			"PushbackTest.java"), 64)){
+			"F:\\eclipsework\\Crazy-java\\src\\com\\Licht\\_15\\PushbackTest.java"), 64)){
 			char[] buf = new char[32];
 			String lastContent = "";
 			int hasRead = 0;
