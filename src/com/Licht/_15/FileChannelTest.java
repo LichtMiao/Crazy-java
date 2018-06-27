@@ -23,7 +23,7 @@ public class FileChannelTest{
 			buffer.clear(); // 复原position、limit的位置
 			/*---为了能打印文件，使用的Charset类和CharsetDecoder类
 			将ByteBuffer转换成CharBuffer---*/
-			//使用GBK字符集创建解码器
+			//使用forName(字符集名称)创建GBK字符集对象
 			Charset charset = Charset.forName("GBK");
 			//创建解码器对象，使用解码器将ByteBuffer转换成CharBuffer
 			CharsetDecoder decoder = charset.newDecoder();
