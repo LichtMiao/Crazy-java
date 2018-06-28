@@ -23,7 +23,7 @@ public class FileVisitorTest{
 				public FileVisitResult visitFile(Path file
 					, BasicFileAttributes attrs) throws IOException{
 					System.out.println("系统正在访问" + file + "文件");
-					if (file.endsWith("FileVisitor.java")){
+					if (file.endsWith("FileVisitor.java")){ //找到目标文件则亭子遍历
 						System.out.println("已找到目标文件");
 						return FileVisitResult.TERMINATE;
 					}
