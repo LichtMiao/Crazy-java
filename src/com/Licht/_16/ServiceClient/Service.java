@@ -11,7 +11,7 @@ import java.io.PrintStream;
 public class Service{
 	public static void main(String[] args)
 		throws Exception{
-			ServerSocket ss = new ServerSocket(3000); //服务器端使用3000端口
+			ServerSocket ss = new ServerSocket(30000); //服务器端使用3000端口
 			while(true){
 				Socket s = ss.accept(); //服务器接收客户端的请求，生成一个Socket
 				//s.getOutputStream()获取的是Socket的节点输出流，
